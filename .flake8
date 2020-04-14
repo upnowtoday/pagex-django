@@ -1,0 +1,4 @@
+[flake8]
+max-line-length = 140
+exclude = ./dust_bin*, .tox,.git,settings/*,*/migrations/*,*/static/CACHE/*,docs,*/tests*,*apps.py
+ignore = W605,E126
